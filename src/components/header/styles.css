@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header .grow-1 {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header .grow-2 {
+  flex: 5 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .grow-2 input {
+  border: 1px solid #f5f7fa;
+  border-radius: 4px;
+  height: 35px;
+  width: 100%;
+}
+
+.header .grow-2 input::placeholder {
+  color: #f6f7f8;
+}
+
+.header .grow-1 p {
+  color: #98a0a6;
+  font-size: 14px;
+}
+
+@media (max-width: 420px) {
+  .header .grow-1 {
+    width: 100%; 
+  }
+
+  .header .grow-2 {
+    width: 100%; 
+    margin: 5px 0 5px 0;
+  }
+}

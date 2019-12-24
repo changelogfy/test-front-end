@@ -1,0 +1,72 @@
+.card {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 360px;
+  min-width: 30%;
+  padding: 20px 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px 20px 10px;
+}
+
+.card__heart {
+  width: 100%;
+  text-align: end;
+  cursor: pointer;
+}
+
+.card__body {
+  text-align: center;
+}
+
+.card__body > img {
+    width: 100px;
+    border-radius: 50px;
+    height: 100px;
+}
+
+.body__name {
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.body__email {
+  color: #d2d5d8;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.card__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card__buttons button {
+  border: none;
+  border-radius: 50px;
+  padding: 7px 30px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #bfc5d1;
+}
+
+.card__buttons button img {
+  margin-right: 10px;
+}
+
+.card__buttons .button__active {
+  background-color: #507bfc !important;
+  color: #fff !important;
+}
+
+@media(max-width:768px) {
+  .card {
+    width: 100%;
+  }
+}

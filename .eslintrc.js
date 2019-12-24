@@ -6,14 +6,20 @@ module.exports = {
     jquery: true,
     es6: true
   },
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
   extends: [
-
+    "prettier", "prettier/react"
   ],
+  parser: "babel-eslint",
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
   plugins: [
-
+    "react", "prettier", "jsx-a11y", "import"
   ],
-  rules: {}
+  rules: {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": ["warn", { extensions: [".jsx", ".js"] }],
+    "import/prefer/default-export": "off",
+  }
 }
