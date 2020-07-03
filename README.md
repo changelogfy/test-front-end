@@ -1,4 +1,4 @@
-![Changelogfy](https://changelogfy.com/images/changelogfy/color-inline.svg)
+<p align="left"><img src="https://changelogfy.com/images/brand/site/logo-header-color.png" width="200"></p>
 
 ### About [Changelogfy.com](https://changelogfy.com)
 Changelogfy is a Product Release Notes Tool.
